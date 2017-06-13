@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #1f8fc1;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+div{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    border: 0;
+}
+.header{
+    padding: 35px;
+    margin-bottom: 20px;
+    width: 100vw;
+    font-size: 42px;
+    background-color: #FFFFFF;
+    color: #1f8fc1;
+
+}
+
+.form-div{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    width: 100vw;
+    padding: 70px;
+}
+
+.form-card{
+    width: 530px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+.enter-option{
+    margin-bottom: 50px;
+}
+
+a{
+    font-size: 26px;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #02b3e4 !important;
+    box-shadow: 0 1px 0 0 #1f8fc1 !important;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #02b3e4 !important;
+}
+
+button{
+    background-color: #1f8fc1 !important;
+}
