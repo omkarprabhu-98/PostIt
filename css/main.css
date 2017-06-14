@@ -50,8 +50,26 @@ div{
     margin-bottom: 50px;
 }
 
+
+.options{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.col.s6{
+    padding-bottom: 20px !important;
+}
+
 a{
     font-size: 26px;
+    color: #1f8fc1;
+}
+
+.col.s6.active{
+    border-bottom: 2px solid #1f8fc1 ;
+    box-shadow: 0 1px 0 0 #02b3e4 ;
+    color: #1f8fc1;
 }
 
 input:not([type]):focus:not([readonly]),

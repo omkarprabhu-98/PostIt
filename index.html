@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
+<body ng-app="SignIn">
+    <div class="container" >
         <header class="header z-depth-5">
             <b>Post It</b>
         </header>
@@ -19,36 +19,20 @@
 
                 <div class="enter-option">
                     <div class="row options">
-                        <div class="col s6"><a>Sign Up</a></div>
-                        <div class="col s6"><a>Login</a></div>
-                    </div>
-                    <hr>
-                </div>
 
-                <div>
-                    <div class="row">
-                        <form class="col s12">
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="user-name" type="text" required >
-                                    <label for="user-name">User Name</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="email" type="email" required>
-                                    <label for="email">Email</label>
-                                </div>
-                            </div>
-                        </form>
+                        <div class="col s6 active"><a href="#!signUp" >Sign Up</a></div>
+
+
+                        <div class="col s6"><a href="#!logIn">LogIn</a></div>
+
+
                     </div>
 
                 </div>
 
-                <div>
-                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                        <i class="material-icons right">send</i>
-                    </button>
+                <div class="ng-view">
+
+
                 </div>
 
 
@@ -62,5 +46,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="materialize/js/materialize.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <script src="angular/signIn.js"></script>
+    <script src="js/main.js"></script>
+    <script src="angular/controllers/signUpController.js"></script>
 </body>
 </html>
