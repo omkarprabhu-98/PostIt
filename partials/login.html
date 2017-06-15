@@ -1,14 +1,14 @@
 <div class="row">
-    <form class="col s12">
+    <form  name="mForm "class="col s12" ng-controller="logInController as loginCtrl" ng-submit="loginCtrl.submit() && mForm.$valid">
         <div class="row">
             <div class="input-field col s12">
-                <input id="user-name" name="user-name" type="text"  >
+                <input id="user-name" name="user-name" ng-model="username" type="text" >
                 <label for="user-name">User Name</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s12">
-                <input id="password" name="password" type="password">
+                <input id="password" name="password" ng-model="password" type="password">
                 <label for="password">Password</label>
             </div>
         </div>

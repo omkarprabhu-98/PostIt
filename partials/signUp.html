@@ -1,27 +1,28 @@
 <div class="row"  >
-    <form name="form" ng-controller="signUpController as signCtrl" ng-submit="signCtrl.submit()" >
+    <form name="mForm"  ng-controller="signUpController as signCtrl" ng-submit="signCtrl.submit() && mForm.$valid" novalidate>
         <div class="row">
             <div class="input-field col s12">
 
-                <input id="first_name" name="first-name" ng-model="name" type="text"  >
+                <input id="first_name" name="first-name" ng-model="name" type="text" required >
                 <label for="first_name">First Name</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s12">
-                <input id="user-name" name="user-name" ng-model="user" type="text" >
+                <input id="user-name" name="user-name" ng-model="username" type="text" required >
                 <label for="user-name">User Name</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s12">
-                <input id="email" name="email" ng-model="email" type="email">
+                <input id="email" name="email" ng-model="email" type="email" required>
                 <label for="email">Email</label>
             </div>
+
         </div>
         <div class="row">
             <div class="input-field col s12">
-                <input id="password" name="email" ng-model="password" type="password">
+                <input id="password" name="email" ng-model="password" type="password" required >
                 <label for="password">Password</label>
             </div>
         </div>
@@ -31,4 +32,7 @@
             </button>
         </div>
     </form>
+
+
+    </div>
 </div>
