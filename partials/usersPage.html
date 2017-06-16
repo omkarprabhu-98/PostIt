@@ -1,3 +1,11 @@
-<div>
-    <h1>hello</h1>
+<div  class="z-depth-5" ng-controller="usersController as usersCtrl">
+    <div class="collection with-header">
+        <!--<img class="circle" src="../images/user_img.jpg">-->
+        <a href="" class="collection-item" ng-repeat = "user in userData">
+            <b >{{user.name}}</b><br>
+            <p>
+                {{user.username}}
+            </p>
+        </a>
+    </div>
 </div>

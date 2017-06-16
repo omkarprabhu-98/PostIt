@@ -13,8 +13,17 @@ angular.module('HomePage',['ngRoute']).config(
             .when("/users", {
                 templateUrl : "partials/usersPage.html"
 
-            });
+            })
+            .when("/posts",{
+                templateUrl: "partials/postsPage.html"
+            })
+            .when("/user", {
+                templateUrl: "partials/user.html"
+            })
+
+        ;
     }
 
 
 );
+

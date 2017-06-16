@@ -46,7 +46,7 @@ angular.module('SignIn').controller("signUpController",function($scope, $rootSco
 
                     // error load signUp page
                     window.location = "index.html";
-                    alert("username exits");
+                    alert("Username exits");
 
                 });
             };

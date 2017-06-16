@@ -21,13 +21,13 @@ angular.module('SignIn').controller("logInController",function($scope, $rootScop
             ).then(function successCallback(response) {
 
                 // load home page
-                // window.location =  "test.html";
+                window.location =  "homeIndex.html";
 
             }, function errorCallBack(response){
 
                 // error load signUp page
                 window.location = "index.html";
-                alert("Invalid login details : check again or  Sign Up");
+                alert("Invalid login details: Check again or  Sign Up");
 
             });
         };

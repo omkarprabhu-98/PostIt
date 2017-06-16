@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    border: 0;
+    width: 100vw;
+    background-color: #1f8fc1;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    padding: 100px;
+    width: 100vw;
+}
+
+
+.nav-div{
+    padding: 0;
+    border: 0;
+    top: 0;
+    width: 100vw;
+    left: 0;
+
+    position: fixed;
+    box-shadow: 0 5px 15px 0 rgba(46,61,73,.12);
+}
+
+nav{
+    background-color: #FFFFFF !important;
+    padding-bottom: 20px !important;
+
+}
+
+.title{
+    padding-left: 30px;
+    color: #1f8fc1;
+    font-size:36px;
+}
+
+
+li.active{
+    background-color: #FFFFFF !important;
+    border-bottom: 4px solid #ffffff !important;
+}
+
+a{
+    font-size: 22px !important;
+    color: #02b3e4 !important;
+}
+
+.waves-effect.waves-light.btn{
+
+    color: #FFFFFF !important;
+    background-color: #02b3e4 ;
+}
+
+.users-card{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.ng-view{
+    width: 600px;
+
+}
+
+/* link items*/
+
+.collection{
+    margin: 0 !important;
+}
+
+.collection a.collection-item {
+    display: block !important;
+    transition: .25s !important;
+    color: #000000 !important;
+    font-size: 25px;
+}
+.collection a.collection-item:not(.active):hover {
+    background-color: #1f8fc1 !important;
+    color: #ffffff !important;
+}
+
+b{
+    font-size: 27px;
+}
+
+p{
+    margin: 10px;
+
+}
+
+.collection-header{
+    margin: 0;
+    padding-bottom: 20px;
+}

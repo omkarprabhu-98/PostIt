@@ -19,16 +19,27 @@ div{
     padding: 0;
     border: 0;
 }
+
+
+
+
+
+/* header */
 .header{
-    padding: 35px;
+    padding: 24px;
     margin-bottom: 20px;
     width: 100vw;
-    font-size: 42px;
+    font-size: 38px;
     background-color: #FFFFFF;
     color: #1f8fc1;
 
 }
 
+
+
+
+
+/* form container */
 .form-div{
     align-items: center;
     text-align: center;
@@ -39,6 +50,11 @@ div{
     padding: 70px;
 }
 
+
+
+
+
+/* form card */
 .form-card{
     width: 530px;
     padding: 30px;
@@ -46,10 +62,14 @@ div{
     height: 100%;
 }
 
+
+
+
+
+/* signUP login */
 .enter-option{
     margin-bottom: 50px;
 }
-
 
 .options{
     padding-left: 10px;
@@ -73,6 +93,11 @@ a{
     color: #1f8fc1;
 }
 
+
+
+
+
+/* input field override */
 input:not([type]):focus:not([readonly]),
 input[type=text]:focus:not([readonly]),
 input[type=password]:focus:not([readonly]),
@@ -88,6 +113,13 @@ input[type=password]:focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
     color: #02b3e4 !important;
 }
+
+
+
+
+
+
+/* submit button */
 
 button{
     background-color: #1f8fc1 !important;
