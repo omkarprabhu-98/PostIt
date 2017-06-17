@@ -1,11 +1,20 @@
-<div  class="z-depth-5" ng-controller="usersController as usersCtrl">
+<div  class="z-depth-5" ng-controller="usersController as usersCtrl" >
+    <!-- users icon -->
+    <div class="header-img">
+        <img ng-src="../../PostIt!!/images/userImg.jpg" width="200" height="200" class="circle" alt="Users" >
+    </div>
+    <!-- all users -->
     <div class="collection with-header">
-        <!--<img class="circle" src="../images/user_img.jpg">-->
+        <!-- link -->
         <a href="" class="collection-item" ng-repeat = "user in userData">
-            <b >{{user.name}}</b><br>
+            <b>{{user.name}}</b><br>
             <p>
                 {{user.username}}
             </p>
         </a>
     </div>
+
+
 </div>
+
+

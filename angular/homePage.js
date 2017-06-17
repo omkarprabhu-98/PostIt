@@ -2,7 +2,6 @@
  * Created by Admin on 15-Jun-17.
  */
 
-
 angular.module('HomePage',['ngRoute']).config(
 
     function ($routeProvider) {

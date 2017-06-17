@@ -4,6 +4,7 @@
 $(document).ready(
   function(){
 
+  //  tab navigation selection
   $("li").on("click",function(){
 
     if(!$(this).hasClass("active")){

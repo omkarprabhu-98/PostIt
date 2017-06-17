@@ -4,6 +4,7 @@
 
 $(document).ready(function(){
 
+    // tab navigation selection
     $(".col.s6").on("click",
         function () {
 
