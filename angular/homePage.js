@@ -19,6 +19,8 @@ angular.module('HomePage',['ngRoute']).config(
             .when("/user", {
                 templateUrl: "partials/user.html"
             })
+            .when("/pos")
+
 
         ;
     }

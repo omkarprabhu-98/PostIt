@@ -3,7 +3,7 @@
  */
 
 
-angular.module('HomePage').controller("usersController",function($scope, $rootScope,  $http){
+angular.module('HomePage').controller("usersController",function($scope, $location, SharedDataService,  $rootScope,  $http){
 
     // request all users names and usernames
     $http(
@@ -17,6 +17,13 @@ angular.module('HomePage').controller("usersController",function($scope, $rootSc
         $scope.userData = response.data.data;
     }
     );
+
+    this.loadUserPage = function(index){
+            SharedDataService.username = $scope.userData[index].username;
+            $location.path("/user");
+
+
+    }
 
 
 
