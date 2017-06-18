@@ -41,7 +41,7 @@ angular.module('SignIn').controller("signUpController",function($scope, $rootSco
                     );
 
                     // load home page
-                    window.location =  "test.html";
+                    window.location =  "homeIndex.html";
                 }, function errorCallBack(response){
 
                     // error load signUp page
