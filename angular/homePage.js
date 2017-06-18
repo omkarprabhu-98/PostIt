@@ -19,7 +19,14 @@ angular.module('HomePage',['ngRoute']).config(
             .when("/user", {
                 templateUrl: "partials/user.html"
             })
-            .when("/pos")
+            .when("/post", {
+                templateUrl: "partials/createPost.html"
+            })
+            .when("/postDetails",{
+                templateUrl: "partials/post.html"
+                }
+
+            )
 
 
         ;

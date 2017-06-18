@@ -5,7 +5,8 @@
 
 angular.module('HomePage').service('SharedDataService', function(){
         // username variable to share
-        var username = "omkar_p31";
+        var username = "";
+        var post_id = "";
     }
 
 

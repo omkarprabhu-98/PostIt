@@ -77,7 +77,7 @@ a{
 }
 
 .ng-view{
-    width: 600px;
+    width: 750px;
 
 }
 
@@ -158,6 +158,41 @@ p{
 
 
 
+
+/* posts list */
+.collapsible li.active{
+    border: 0 !important;
+}
+.collapsible-header:not(.active):hover{
+    background-color: #1f8fc1 !important;
+    cursor: pointer;
+    color: #ffffff !important;
+}
+.collapsible-header{
+    padding: 27px;
+
+}
+.collapsible-header b{
+    font-size: 25px !important;
+}
+.collapsible-body{
+    border: 0 !important;
+    background-color: #FFFFFF; !important;
+
+}
+.postAuthorDetails{
+    font-size: 22px;
+
+}
+.detb{
+    margin-top: 20px;
+}
+
+
+
+
+
+
 /* post floating button */
 .btn-floating{
     background-color: #FFFFFF !important;
@@ -168,4 +203,24 @@ p{
 .float{
     padding-top: 7px;
     padding-left: 7px;
+}
+
+
+
+
+
+/* post details*/
+.post-space{
+    background-color: #FFFFFF;
+}
+.post-title{
+    font-size: 26px;
+    padding: 25px;
+}
+.post-content{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+
 }
