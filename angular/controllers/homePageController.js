@@ -14,7 +14,7 @@ angular.module('HomePage').controller("homePageController",function($scope, $roo
                 }
 
             ).then(function successCallback(response){
-                    // suceessful logout got to home page
+                    // successful logout got to home page
                     window.location = "index.html"
                 },
                 function errorCallback(response) {

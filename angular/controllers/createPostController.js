@@ -32,8 +32,7 @@ angular.module('HomePage').controller("createPostController",function($scope, $l
                 alert("Please try again");
 
             });
-            console.log($scope.title);
-            console.log($scope.content);
+
         };
 
     }

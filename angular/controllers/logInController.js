@@ -20,14 +20,23 @@ angular.module('SignIn').controller("logInController",function($scope, $rootScop
                 }
             ).then(function successCallback(response) {
 
-                // load home page
-                window.location =  "homeIndex.html";
+                // check errorCode for invalid login data
+                if (response.data.hasOwnProperty('errorCode') || response.data['statusText'] === "Invalid UserName" || response.data['statusText'] === "Invalid Password"){
+                    // error load signUp page
+                    window.location = "index.html";
+                    alert("Invalid Username or password");
+                }
+                else {
+
+                    // load home page if logged in
+                    window.location =  "homeIndex.html";
+                }
 
             }, function errorCallBack(response){
 
                 // error load signUp page
                 window.location = "index.html";
-                alert("Invalid login details: Check again or  Sign Up");
+                alert("Sorry, Connection Problem");
 
             });
         };
