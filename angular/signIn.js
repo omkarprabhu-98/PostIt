@@ -2,7 +2,7 @@
  * Created by Admin on 14-Jun-17.
  */
 
-angular.module('SignIn',['ngRoute']).config(
+angular.module('SignIn',['ngRoute','ngAnimate']).config(
     
     function ($routeProvider) {
         $routeProvider
