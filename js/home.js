@@ -10,7 +10,11 @@ $(document).ready(
     if(!$(this).hasClass("active")){
 
       $("li.active").removeClass("active");
+
+        $("li").children('.slider').removeClass("active");
       $(this).addClass("active");
+        $(this).children('.slider').addClass("active");
+
 
 
     }
@@ -18,6 +22,7 @@ $(document).ready(
 
 
   });
+
 
 
 
