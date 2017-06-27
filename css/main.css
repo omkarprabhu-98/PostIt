@@ -69,6 +69,7 @@ div{
 /* signUP login */
 .enter-option{
     margin-bottom: 20px;
+
 }
 
 .options{
@@ -101,6 +102,10 @@ a{
 }
 
 
+
+
+.ng-enter           {  height:0; width: 0; opacity: .2; transition: 1s; }
+.ng-enter-active           {  height:100%; width :100%; opacity: 1; }
 
 
 
