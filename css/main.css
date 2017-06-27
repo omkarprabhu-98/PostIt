@@ -101,11 +101,18 @@ a{
     box-shadow: 0 1px 0 0 #02b3e4 ;
 }
 
+ /*ngView transitions*/
 
+.ng-enter           {  width: 0; opacity: .2; transition: 1s; }
+.ng-enter-active           { width :100%; opacity: 1; }
 
-
-.ng-enter           {  height:0; width: 0; opacity: .2; transition: 1s; }
-.ng-enter-active           {  height:100%; width :100%; opacity: 1; }
+.ng-leave{
+    width :100%; opacity: 1;
+    transition: .1s;
+}
+.ng-leave-active{
+    width :0; opacity: 0;
+}
 
 
 

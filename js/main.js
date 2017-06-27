@@ -24,10 +24,6 @@ $(document).ready(function(){
         }
     );
 
-    $('.card').slideDown("slow");
-
-
-
 
 
 });
